@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-color: rgb(34, 26, 55);
+    border-radius: 50px;
+    border-radius: 50px;
+}
+.parent{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 50px;
+}
+.parent span{
+    color: white;
+    font-size: 20px;
+    margin-right: 550px;
+}
+.parent .but{
+    border: 2px solid rgb(74, 16, 129);
+    border-radius: 30px;
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color:rgb(74, 16, 129);
+    box-shadow: 5px;
+}
+.menu{
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.menu:hover{
+    border-radius: 30px;
+    background-color: rgb(27, 2, 50);
+}
+.parent2 p{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 560px;
+    margin-top: -35px;
+    color: white;
+    font-size: 12px;
+
+}
+.parent2 .line1{
+    border: 2px solid rgb(85, 20, 95);
+    width: 1px;
+    height: 210px;
+    margin-left: 930px;
+    margin-top: -30px;
+}
+.parent2 .list1{
+    color: white;
+    font-size: 12px;
+    margin-left: 970px;
+    margin-top: -200px;
+    padding: 1px 5px;
+    line-height: 32px;
+}
+.parent2 .list1 span{
+    font-size: 15px;
+}
+.parent3 p{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 560px;
+    margin-top: 25px;
+    line-height: 2px;
+    color: white;
+    font-size: 12px;
+}
+.parent3 .line2{
+    border: 2px solid rgb(85, 20, 95);
+    width: 1px;
+    height: 210px;
+    margin-left: 930px;
+    margin-top: -30px;
+}
+.parent3 .list2{
+    color: white;
+    font-size: 12px;
+    margin-left: 970px;
+    margin-top: -200px;
+    padding: 1px 5px;
+    line-height: 32px;
+}
+.parent3 .list2 span{
+    font-size: 15px;
+}
+.parent4 p{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 560px;
+    margin-top: 25px;
+    line-height: 2px;
+    color: white;
+    font-size: 12px;
+}
+.parent4 .line3{
+    border: 2px solid rgb(85, 20, 95);
+    width: 1px;
+    height: 210px;
+    margin-left: 930px;
+    margin-top: -30px;
+}
+.parent4 .list3{
+    color: white;
+    font-size: 12px;
+    margin-left: 970px;
+    margin-top: -200px;
+    padding: 1px 5px;
+    line-height: 32px;
+}
+.parent4 .list3 span{
+    font-size: 15px;
+}
